@@ -35,8 +35,8 @@ $(function() {
   // TODO: add validation for min and max inputs
   document.getElementById('generateChartBtnId').addEventListener('click', function(event) {
     event.preventDefault();
-    minDataset = $('#minDatasetNr').val() 
-    maxDataset = $('#maxDatasetNr').val() 
+    minDataset = parseInt($('#minDatasetNr').val(), 10)
+    maxDataset = parseInt($('#maxDatasetNr').val(), 10)
     const maxLabelValue = makeChartDatasets(minDataset, maxDataset).maxXAxes
     const newDatasets = makeChartDatasets(minDataset, maxDataset).datasets
     const labels = makeChartLabels(maxLabelValue)

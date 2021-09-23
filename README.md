@@ -4,7 +4,7 @@
   "3x plus 1 equation"
 </h1>
 
-<p align="center"></p>
+<p align="center">visual 3x plus 1 math equation</p>
 
 <hr />
 <br />
@@ -13,6 +13,7 @@
 ## 📚 Project Definition
 
 A simple chart for 3x plus 1 math equation.
+https://www.youtube.com/watch?v=094y1Z2wpJg
 
 
 ## 🛠️ Features
@@ -23,18 +24,14 @@ Technologies used:
 
 
 ## 🚀 Instalation
-Description
-```sh
-
-```
+just open index.html
 
 ## 💻 Development
-
+maybe you could use a live server package
 
 ## Documentation
 https://codepen.io/jordanwillis/pen/bqaGRR
 
 
 ## TODO:
-- [ ] todo 1
-- [x] todo 2
+- [ ] Remove labels from dataset (when are a lot is no pretty) 
