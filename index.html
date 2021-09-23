@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="js/libs/chart-3.5.1.min.js"></script>
+  <script src="js/libs/jquery-3.6.0.min.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/chartUtils.js"></script>
+  <script src="js/equationChart.js"></script>
+</head>
+
+<body>
+  <input type="hidden" id="equationNrsHidden">
+  
+  <label >Enter min and max nr of equation iterations</label>
+  <br>
+  <input type="text" id="minDatasetNr" placeholder="min">
+  <input type="text" id="maxDatasetNr" placeholder="max">
+
+  <button id="generateChartBtnId">GO</button>
+  
+  <canvas id="equationChart" class="chart-container"></canvas>
+
+</body>
+
+</html>
